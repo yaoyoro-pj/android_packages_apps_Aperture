@@ -204,7 +204,7 @@ class QrImageAnalyzer(private val activity: Activity, private val scope: Corouti
                                 Intent.EXTRA_TEXT, result.text
                             )
                         },
-                        activity.getString(androidx.transition.R.string.abc_shareactionprovider_share_with)
+                        activity.getString(R.string.qr_share_with_action)
                     )
                 )
             }
