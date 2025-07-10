@@ -17,6 +17,8 @@ android_app {
     sdk_version: "34",
     product_specific: true,
 
+    overrides: ["Camera2"],
+
     required: [
         "ApertureFrameworksBaseOverlay",
         "ApertureLensLauncher",
